@@ -159,14 +159,15 @@ Each step includes clear explanations and screenshots for better understanding.
 
 ---
 
-## Step 14: DELETE Order Lambda Function
+## Step 13: Test DELETE Lambda Function
 
-This screenshot shows the Lambda function created for handling **DELETE** requests.
-The function deletes an order from DynamoDB using the order ID received from the request path.
-After successful deletion, a confirmation message is returned.
-The function was tested using a test event in the Lambda console.
+- Tested the **DELETE Lambda function** using a test event.
+- Provided an order ID (`id`) in the path parameters.
+- The test execution failed with a **security token invalid** error.
+- This error occurred due to temporary AWS credentials or session issues.
+- The Lambda function code is correct; the issue is related to authentication, not logic.
 
-![DELETE Lambda Function](screenshots/delete-lambda-function.png)
+![Delete Lambda Test Error](screenshots/14-delete-lambda-test-error.png)
 
 
 
