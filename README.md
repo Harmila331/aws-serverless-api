@@ -64,4 +64,30 @@ Each step includes clear explanations and screenshots for better understanding.
 
 ![Configure Runtime and Role](screenshots/05-configure-runtime-and-role.png)
 
+---
+
+## Step 6: Select Existing Execution Role and Create Function
+
+- Selected **Use an existing role** for the Lambda execution role.
+- Chose the existing IAM role **OrderUpLambdaExecutionRole**.
+- This role already has permissions to write logs to **Amazon CloudWatch Logs**.
+- Clicked **Create function** to finish creating the Lambda function.
+
+![Select Execution Role](screenshots/06-select-execution-role-and-create.png)
+
+---
+
+## Step 7: Lambda Function Successfully Created
+
+- The Lambda function **functionorder** was successfully created.
+- AWS shows a confirmation message indicating the function is ready.
+- The **Function overview** page displays:
+  - Function name
+  - Function ARN
+  - Region
+- From this page, code can be edited and triggers (such as API Gateway) can be added.
+
+![Lambda Function Created](screenshots/07-lambda-function-created.png)
+
+
 
