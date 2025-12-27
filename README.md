@@ -199,13 +199,15 @@ It will be used to create REST APIs that connect HTTP methods
 
 ![Open API Gateway](screenshots/14-open-api-gateway.png)
 
-## Step-15:open API Gateway
+## Step 15: Open API Gateway
 
-This screenshot shows the AWS API Gateway service opened from the console.
+This screenshot shows the **AWS API Gateway** service opened from the AWS Management Console.
 API Gateway is used to expose Lambda functions as HTTP endpoints.
-It will be used to connect PUT, GET, and DELETE Lambda functions.
+In the next steps, this service is used to connect the **PUT**, **GET**, and **DELETE** Lambda functions to REST API routes.
 
-![Open API Gateway](screenshots/15-open-api-gateway.png)
+![Open API Gateway](screenshots/15-api-gateway-dashboard.png)
+
+
 
 ## Step-17:API Gateway Lambda Integrations
 
