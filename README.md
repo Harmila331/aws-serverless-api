@@ -176,16 +176,20 @@ Test events were created for each function by replacing the default test JSON wi
 
 ---
 
-## Step 13: Create and Test DELETE Lambda Function same process as we creaeted for put and get
+## ## Step 13: Create and Test DELETE Lambda Function
+
+This step follows the same process used for creating and testing the PUT and GET Lambda functions.
 
 - Created a Lambda function named **functionorder_DELETE** to delete an order from DynamoDB.
-- This function uses the **order ID** received from the API path parameter.
-- The Lambda deletes the corresponding item from the DynamoDB table.
+- The function uses the **order ID** received from the API path parameter.
+- The Lambda attempts to delete the corresponding item from the DynamoDB table.
 - A test event named **functionorder_DELETE_Test** was created.
 - The test event includes the order ID to be deleted.
 - The function was executed using the **Test** option.
 
-![Delete Lambda Function](screenshots/13-delete-lambda-function.png)
+The test execution shows an error related to **invalid security token**, which is caused by IAM session or lab credentials and does not affect the Lambda logic.
+
+![Delete Lambda Test](screenshots/13-delete-lambda-test.png)
 
 ## Step 14: Open API Gateway
 
