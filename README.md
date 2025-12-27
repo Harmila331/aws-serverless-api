@@ -1,3 +1,11 @@
+# AWS Serverless API using Lambda and API Gateway
+
+This project demonstrates a step-by-step implementation of a **Serverless HTTP API**
+using **AWS Lambda** and **Amazon API Gateway**.
+Each step includes clear explanations and screenshots for better understanding.
+
+---
+
 ## Step 1: Login to AWS Console
 
 - Logged into the **AWS Management Console** using an **IAM user** account.
