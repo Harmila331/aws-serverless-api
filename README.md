@@ -219,7 +219,7 @@ This allows API Gateway to route requests to the correct Lambda function.
 ![API Gateway Integrations](screenshots/16-add-lambda-integrations.png)
 
 
-## Step 16: Configure API Gateway Routes
+## Step 17: Configure API Gateway Routes
 
 In this step, HTTP routes were configured in **API Gateway** to connect
 the Lambda functions with REST API endpoints.
@@ -235,7 +235,7 @@ the Lambda functions with REST API endpoints.
 
 ![Configure API Routes](screenshots/16-configure-api-routes.png)
 
-## Step 17: API Routes Successfully Created
+## Step 18: API Routes Successfully Created
 
 This screenshot shows the API routes created successfully in **AWS API Gateway**
 after configuring the route mappings.
@@ -252,7 +252,7 @@ after configuring the route mappings.
 
 ![API Routes Created](screenshots/17-api-routes-created.png)
 
-## Step 18: API Gateway Stage and Invoke URL
+## Step 19: API Gateway Stage and Invoke URL
 
 This screenshot shows the **Stages** section of the API Gateway after successful deployment.
 
@@ -267,7 +267,7 @@ This screenshot shows the **Stages** section of the API Gateway after successful
 
 
 
-## Step 17: Test API Endpoints Using CloudShell
+## Step 20: Test API Endpoints Using CloudShell
 
 After creating the API Gateway and noting the **Invoke URL**, the API endpoints can be tested using **AWS CloudShell**.
 
