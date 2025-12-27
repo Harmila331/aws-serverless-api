@@ -170,6 +170,15 @@ Each step includes clear explanations and screenshots for better understanding.
 
 ![Delete Lambda Function](screenshots/13-delete-lambda-function.png)
 
+## Step 14: Open API Gateway
+
+API Gateway was opened from the AWS console.
+It will be used to create REST APIs that connect HTTP methods
+(GET, PUT, DELETE) with the Lambda functions created earlier.
+
+![Open API Gateway](screenshots/14-open-api-gateway.png)
+
+
 
 
 
