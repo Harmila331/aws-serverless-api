@@ -48,6 +48,13 @@ Three separate AWS Lambda functions were created to handle order operations.
 
 Each Lambda function replaces the default AWS Lambda template code and is implemented using Node.js with AWS SDK.
 
+## Lambda Function Code Setup
+
+For each Lambda function (PUT, GET, DELETE), the default `index.mjs` code provided by AWS was replaced with the respective custom implementation. After replacing the code, the function was deployed.
+
+Test events were created for each function by replacing the default test JSON with the appropriate request payload and invoking the test to verify correct execution.
+
+
 
 ## Step 4: Create a New Lambda Function
 
