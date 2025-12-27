@@ -177,7 +177,7 @@ Test events were created for each function by replacing the default test JSON wi
 
 ---
 
-## ## Step 13: Create and Test DELETE Lambda Function
+## Step 13: Create and Test DELETE Lambda Function
 
 This step follows the same process used for creating and testing the PUT and GET Lambda functions.
 
@@ -210,7 +210,7 @@ In the next steps, this service is used to connect the **PUT**, **GET**, and **D
 
 
 
-## Step-17:API Gateway Lambda Integrations
+## Step-16:API Gateway Lambda Integrations
 
 This screenshot shows Lambda functions added as integrations in API Gateway.
 PUT, GET, and DELETE Lambda functions are connected to the HTTP API.
@@ -219,7 +219,7 @@ This allows API Gateway to route requests to the correct Lambda function.
 ![API Gateway Integrations](screenshots/16-add-lambda-integrations.png)
 
 
-## Step 19: Test API Endpoints Using CloudShell
+## Step 17: Test API Endpoints Using CloudShell
 
 After creating the API Gateway and noting the **Invoke URL**, the API endpoints can be tested using **AWS CloudShell**.
 
