@@ -90,4 +90,34 @@ Each step includes clear explanations and screenshots for better understanding.
 ![Lambda Function Created](screenshots/07-lambda-function-created.png)
 
 
+---
+
+## Step 8: Write Lambda Function Code
+
+- Opened the **Code** tab of the Lambda function.
+- The default file **index.mjs** is used for writing the Lambda handler.
+- Implemented logic to:
+  - Parse the incoming request body
+  - Store order details in **Amazon DynamoDB**
+  - Return a success or error response
+- The function uses **AWS SDK v3** to interact with DynamoDB.
+
+![Lambda Code Editor](screenshots/08-lambda-code-editor.png)
+
+---
+
+## Step 9: Test the Lambda Function
+
+- Created a **new test event** in the Lambda console.
+- Provided sample JSON input to simulate an API request.
+- Executed the function using the **Test** button.
+- Verified that the function:
+  - Executes successfully
+  - Returns a proper response
+  - Logs execution details in CloudWatch
+
+![Test Lambda Function](screenshots/09-test-lambda-function.png)
+
+
+
 
