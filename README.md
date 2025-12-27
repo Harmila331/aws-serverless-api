@@ -195,6 +195,49 @@ This allows API Gateway to route requests to the correct Lambda function.
 ![API Gateway Integrations](screenshots/16-add-lambda-integrations.png)
 
 
+## Step 19: Test API Endpoints Using CloudShell
+
+After creating the API Gateway and noting the **Invoke URL**, the API endpoints can be tested using **AWS CloudShell**.
+
+Open **CloudShell** from the AWS Console (click the terminal icon at the top-right).
+
+Replace `<INVOKE_URL>` with your actual API Gateway Invoke URL before running the commands.
+
+---
+
+### Test PUT Endpoint (Create Order)
+
+```bash
+curl -X PUT "<INVOKE_URL>/order" \
+-H "Content-Type: application/json" \
+-d '{
+  "id": "12345",
+  "pie": "apple",
+  "quantity": 3,
+  "customerName": "John Doe",
+  "deliveryDate": "2024-12-15"
+}'
+
+### Test DELETE Order API
+
+Use the following command to delete an order by ID:
+
+```bash
+curl -X DELETE "<INVOKE_URL>/order/12345"
+
+
+---
+
+### 2️⃣ (Optional but nice) Add GET test also  
+If you want full CRUD shown, you *can* add this — but **not required**.
+
+```md
+### Test GET Order API
+
+```bash
+curl -X GET "<INVOKE_URL>/order/12345"
+
+
 
 
 
