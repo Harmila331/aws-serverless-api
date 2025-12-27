@@ -26,3 +26,13 @@ Each step includes clear explanations and screenshots for better understanding.
 
 ![Search for AWS Lambda](screenshots/02-search-for-lambda.png)
 
+---
+
+## Step 3: Open AWS Lambda Console
+
+- After selecting **AWS Lambda** from the search results, the Lambda service console is opened.
+- The Lambda console provides an overview of how AWS Lambda works and supported runtimes such as **Node.js, Python, Java**, etc.
+- From this page, users can create and manage serverless functions.
+- Click the **Create a function** button to start building a new Lambda function.
+
+![AWS Lambda Console](screenshots/03-open-lambda-console.png)
