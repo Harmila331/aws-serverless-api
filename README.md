@@ -50,3 +50,18 @@ Each step includes clear explanations and screenshots for better understanding.
 
 ![Create Lambda Function](screenshots/04-create-lambda-function.png)
 
+
+---
+
+## Step 5: Configure Runtime, Architecture, and Execution Role
+
+- Selected **Node.js** as the runtime for the Lambda function.
+- Kept the default **Node.js 24.x** version.
+- Chose **x86_64** as the architecture for compatibility.
+- Left **Durable execution** disabled since this is a simple API function.
+- Used the default execution role option so AWS automatically manages basic permissions.
+- This execution role allows the Lambda function to write logs to **Amazon CloudWatch Logs**.
+
+![Configure Runtime and Role](screenshots/05-configure-runtime-and-role.png)
+
+
