@@ -159,22 +159,6 @@ Each step includes clear explanations and screenshots for better understanding.
 
 ---
 
-## Step 13: Implement GET Lambda Code
-
-- Used AWS SDK v3 to fetch data from DynamoDB.
-- Implemented error handling for missing orders.
-
-![GET Lambda Code](screenshots/13-get-lambda-code.png)
-
----
-
-## Step 14: Test GET Lambda Function
-
-- Executed the function using a test event.
-- Verified successful retrieval of order data.
-
-![Test GET Lambda](screenshots/14-test-get-lambda.png)
-
 
 
 
