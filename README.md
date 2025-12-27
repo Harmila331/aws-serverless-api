@@ -119,5 +119,33 @@ Each step includes clear explanations and screenshots for better understanding.
 ![Test Lambda Function](screenshots/09-test-lambda-function.png)
 
 
+---
+
+## Step 10: Update and Test Lambda Function Code
+
+- Updated the Lambda function code in **index.mjs**.
+- Implemented logic to parse request data and store order details in **Amazon DynamoDB**.
+- Used **AWS SDK v3** (`PutCommand`) for database interaction.
+- Deployed the updated code.
+- Created a test event with sample JSON input.
+- Successfully tested the function and received a **200 OK** response.
+
+![Update and Test Lambda Code](screenshots/10-update-and-test-lambda-code.png)
+
+
+---
+
+## Step 11: Test Lambda Function Using Test Event
+
+- Created a test event named **functionorder_test**.
+- Provided sample JSON input to simulate an order request.
+- Executed the Lambda function using the **Test** option.
+- The function returned **HTTP 200 OK**, confirming successful execution.
+- This verifies that the Lambda logic works correctly before integrating with API Gateway.
+
+![Test Lambda Function](screenshots/11-test-lambda-function-success.png)
+
+
+
 
 
