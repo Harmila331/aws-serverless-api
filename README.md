@@ -186,6 +186,15 @@ It will be used to connect PUT, GET, and DELETE Lambda functions.
 
 ![Open API Gateway](screenshots/15-open-api-gateway.png)
 
+## Step-17:API Gateway Lambda Integrations
+
+This screenshot shows Lambda functions added as integrations in API Gateway.
+PUT, GET, and DELETE Lambda functions are connected to the HTTP API.
+This allows API Gateway to route requests to the correct Lambda function.
+
+![API Gateway Integrations](screenshots/16-add-lambda-integrations.png)
+
+
 
 
 
