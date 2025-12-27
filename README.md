@@ -36,3 +36,17 @@ Each step includes clear explanations and screenshots for better understanding.
 - Click the **Create a function** button to start building a new Lambda function.
 
 ![AWS Lambda Console](screenshots/03-open-lambda-console.png)
+
+---
+
+## Step 4: Create a New Lambda Function
+
+- Clicked on **Create a function** in the AWS Lambda console.
+- Selected **Author from scratch** to create a custom Lambda function.
+- Entered a meaningful **Function name** to identify the Lambda function.
+- Chose **Node.js** as the runtime for implementing the serverless logic.
+- Selected the default **x86_64 architecture**.
+- Allowed AWS to create a default **execution role** with permissions to write logs to CloudWatch.
+
+![Create Lambda Function](screenshots/04-create-lambda-function.png)
+
