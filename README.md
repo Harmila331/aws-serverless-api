@@ -159,6 +159,14 @@ Each step includes clear explanations and screenshots for better understanding.
 
 ---
 
+## Step 14: DELETE Order Lambda Function
+
+This screenshot shows the Lambda function created for handling **DELETE** requests.
+The function deletes an order from DynamoDB using the order ID received from the request path.
+After successful deletion, a confirmation message is returned.
+The function was tested using a test event in the Lambda console.
+
+![DELETE Lambda Function](screenshots/delete-lambda-function.png)
 
 
 
