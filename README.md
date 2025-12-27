@@ -10,7 +10,6 @@ Each step includes clear explanations and screenshots for better understanding.
 
 - Logged into the **AWS Management Console** using an **IAM user** account.
 - After successful login, the **AWS Console Home** page is displayed.
-- The region is set to **US East (N. Virginia)**, which will be used for creating AWS resources in this project.
 - From the Console Home, AWS services such as **EC2, S3, RDS, and Lambda** can be accessed using the search bar or service links.
 
 ![AWS Console Home](screenshots/01-login-aws-console.png)
@@ -77,7 +76,7 @@ Each step includes clear explanations and screenshots for better understanding.
 
 ---
 
-## Step 7: Lambda Function Successfully Created
+## Step 7: Lambda Function Successfully Created for put
 
 - The Lambda function **functionorder** was successfully created.
 - AWS shows a confirmation message indicating the function is ready.
@@ -135,7 +134,7 @@ Each step includes clear explanations and screenshots for better understanding.
 
 ---
 
-## Step 11: Test Lambda Function Using Test Event
+## Step 11: Test Lambda Function Using Test Event for put
 
 - Created a test event named **functionorder_test**.
 - Provided sample JSON input to simulate an order request.
@@ -159,7 +158,7 @@ Each step includes clear explanations and screenshots for better understanding.
 
 ---
 
-## Step 13: Create and Test DELETE Lambda Function
+## Step 13: Create and Test DELETE Lambda Function same process as we creaeted for put and get
 
 - Created a Lambda function named **functionorder_DELETE** to delete an order from DynamoDB.
 - This function uses the **order ID** received from the API path parameter.
