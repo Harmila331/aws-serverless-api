@@ -38,6 +38,17 @@ Each step includes clear explanations and screenshots for better understanding.
 
 ---
 
+## Lambda Function Logic
+
+Three separate AWS Lambda functions were created to handle order operations.
+
+- **PUT Lambda**: Receives order details in JSON format and stores them in DynamoDB.
+- **GET Lambda**: Retrieves all orders or a single order by ID from DynamoDB.
+- **DELETE Lambda**: Deletes an order from DynamoDB using the order ID.
+
+Each Lambda function replaces the default AWS Lambda template code and is implemented using Node.js with AWS SDK.
+
+
 ## Step 4: Create a New Lambda Function
 
 - Clicked on **Create a function** in the AWS Lambda console.
