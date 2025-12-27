@@ -146,6 +146,37 @@ Each step includes clear explanations and screenshots for better understanding.
 ![Test Lambda Function](screenshots/11-test-lambda-function-success.png)
 
 
+---
+
+## Step 12: Create GET Order Lambda Function
+
+- Created a Lambda function to retrieve an order by ID from DynamoDB.
+- The function reads the order ID from the API path parameter.
+- If the order exists, it returns the order details.
+- If not found, it returns a 404 response.
+
+![Create GET Lambda](screenshots/12-create-get-lambda.png)
+
+---
+
+## Step 13: Implement GET Lambda Code
+
+- Used AWS SDK v3 to fetch data from DynamoDB.
+- Implemented error handling for missing orders.
+
+![GET Lambda Code](screenshots/13-get-lambda-code.png)
+
+---
+
+## Step 14: Test GET Lambda Function
+
+- Executed the function using a test event.
+- Verified successful retrieval of order data.
+
+![Test GET Lambda](screenshots/14-test-get-lambda.png)
+
+
+
 
 
 
