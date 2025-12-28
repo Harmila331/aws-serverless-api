@@ -249,6 +249,7 @@ In the next steps, this service is used to connect the **PUT**, **GET**, and **D
 
 
 
+
 ## Step-16:API Gateway Lambda Integrations
 
 This screenshot shows Lambda functions added as integrations in API Gateway.
