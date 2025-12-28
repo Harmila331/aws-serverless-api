@@ -1,0 +1,10 @@
+{
+  "routeKey": "DELETE /orders/{id}",
+  "pathParameters": {
+    "id": "12345"
+  },
+  "httpMethod": "DELETE",
+  "headers": {
+    "Content-Type": "application/json"
+  }
+}

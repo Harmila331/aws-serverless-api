@@ -1,0 +1,7 @@
+{
+  "routeKey": "GET /orders",
+  "httpMethod": "GET",
+  "headers": {
+    "Content-Type": "application/json"
+  }
+}
