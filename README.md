@@ -48,11 +48,7 @@ Three separate AWS Lambda functions were created to handle order operations.
 
 Each Lambda function replaces the default AWS Lambda template code and is implemented using Node.js with AWS SDK.
 
-## Lambda Function Code Setup
 
-For each Lambda function (PUT, GET, DELETE), the default `index.mjs` code provided by AWS was replaced with the respective custom implementation. After replacing the code, the function was deployed.
-
-Test events were created for each function by replacing the default test JSON with the appropriate request payload and invoking the test to verify correct execution.
 
 
 
@@ -121,6 +117,18 @@ Test events were created for each function by replacing the default test JSON wi
 
 ![Lambda Code Editor](screenshots/08-lambda-code-editor.png)
 
+## PUT Order Lambda Function
+
+- The PUT Lambda logic is implemented in:
+  `lambda/put/index.mjs`
+
+- This function stores order details in DynamoDB.
+
+- A test event was created using:
+  `test-events/test-put.json`
+
+- The function was tested successfully from the Lambda console.
+
 
 
 
@@ -171,11 +179,26 @@ Test events were created for each function by replacing the default test JSON wi
 - Created a Lambda function to retrieve an order by ID from DynamoDB.
 - The function reads the order ID from the API path parameter.
 - If the order exists, it returns the order details.
-- If not found, it returns a 404 response.
+
 
 ![Create GET Lambda](screenshots/12-create-get-lambda.png)
 
 ---
+
+## GET Order Lambda Function
+
+- The GET Lambda logic is implemented in:
+  `lambda/get/index.mjs`
+
+- This function retrieves:
+  - All orders from DynamoDB
+  - A single order using the order ID from the path parameter
+
+- A test event was created using:
+  `test-events/test-get.json`
+
+- The function was tested successfully from the Lambda console.
+
 
 ## Step 13: Create and Test DELETE Lambda Function
 
@@ -191,6 +214,22 @@ This step follows the same process used for creating and testing the PUT and GET
 The test execution shows an error related to **invalid security token**, which is caused by IAM session or lab credentials and does not affect the Lambda logic.
 
 ![Delete Lambda Test](screenshots/13-delete-lambda-test.png)
+
+
+## DELETE Order Lambda Function
+
+- The DELETE Lambda logic is implemented in:
+  `lambda/delete/index.mjs`
+
+- This function deletes an order from DynamoDB using the order ID
+  received from the API path parameter.
+
+- A test event was created using:
+  `test-events/test-delete.json`
+
+- The function was tested from the Lambda console.
+  *(An invalid security token warning may appear in lab environments and does not affect the function logic.)*
+
 
 ## Step 14: Open API Gateway
 
