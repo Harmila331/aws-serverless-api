@@ -339,7 +339,7 @@ curl -X DELETE "<INVOKE_URL>/order/12345"
 
 ---
 
-### 2️⃣ (Optional but nice) Add GET test also  
+### 2️. (Optional but nice) Add GET test also  
 If you want full CRUD shown, you *can* add this — but **not required**.
 
 ```md
